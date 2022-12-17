@@ -1,0 +1,29 @@
+main{
+  width: 1200px;
+  margin: auto;
+}
+.ttl{
+  margin-left: 5px;
+}
+.card-container{
+  max-height: 100%;
+  display: flex;
+  overflow-x: auto ;
+}
+.card-container::-webkit-scrollbar{
+  width: 0;
+}
+.card-container .card-wrapper{
+  max-width: 18rem;
+  height: 100%;
+  margin: auto 15px;
+}
+.card{
+  width: 18rem;
+}
+.form-container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  justify-items: center;
+}

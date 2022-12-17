@@ -1,0 +1,32 @@
+.container-form{
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 18rem;
+    height: 18rem;
+}
+.form-post{
+    margin: auto;
+    width: 14rem;
+}
+.input-ttl{
+    margin-bottom: 1rem;
+}
+.input-bdy{
+    margin-bottom: 1.5rem;
+}
+.btn-form{
+    padding: 2px 5px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+}
+.btn-form:hover{
+    padding: 3px 6px;
+    border: 1px solid #1890ff;
+    border-radius: 4px;
+    background-color: white;
+    color: #1890ff;
+}
+.btn-form:active{
+    background-color: #1890ff;
+    color: white;
+}
